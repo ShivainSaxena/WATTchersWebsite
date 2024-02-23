@@ -35,11 +35,6 @@ const Navbar = () => {
                                     About Us
                                 </Typography>
                             </Link>
-                            <Link component={RouterLink} underline='none' to="/projectinfo">
-                                <Typography className='navLinks'>
-                                    Project Info
-                                </Typography>
-                            </Link>
                             <Link component={RouterLink} underline='none' to="/contact">
                                 <Typography className='navLinks'>
                                     Contact

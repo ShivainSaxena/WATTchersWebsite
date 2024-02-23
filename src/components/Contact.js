@@ -5,7 +5,7 @@ const Contact = () => {
         <div className="contactPage">
             <h1 className='contactHeader'>Connect With Us</h1>
             <Box className="formContainer" display={'flex'} flexDirection={'column'}>
-                <form action="https://getform.io/f/yb8pm5bv" method="POST">
+                <form action="https://getform.io/f/mbkGzYbz" method="POST">
                     <Box display={'flex'} gap={5} className='labelInputGroup'>
                         <label htmlFor="name">Name:</label>
                         <input type="text" name="name" required/>
