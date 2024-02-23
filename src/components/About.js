@@ -1,5 +1,5 @@
 import Maanas from '../assets/maanas.png';
-import Ak from '../assets/ak.jpeg';
+import Ak from '../assets/AK1.jpeg';
 import AE from '../assets/alexe.jpeg';
 import AT from '../assets/alext.jpeg';
 
@@ -10,7 +10,7 @@ const About = () => {
             <div className="cardContainer">
                 <img src={Maanas} alt="profile" className='profilePic'/>
                 <h1 className='profileName'>Maanas Saxena</h1>
-                <p className="profileDesc">Role: <br />- Firmware and Web Developer <br />- Circuit Designer <br />Linkedln: <a href="https://www.linkedin.com/in/maanas-saxena/" target='_blank' rel='noreferrer'>in/maanas-saxena/</a> <br />Email: <a href="mailto:maanas1@ualberta.ca">maanas1@ualberta.ca</a><br />Mobile: +1 (780) 918-7289</p>
+                <p className="profileDesc">Role: <br />- Firmware Developer <br />- Circuit Designer<br />- Web Developer <br />Linkedln: <a href="https://www.linkedin.com/in/maanas-saxena/" target='_blank' rel='noreferrer'>in/maanas-saxena/</a> <br />Email: <a href="mailto:maanas1@ualberta.ca">maanas1@ualberta.ca</a><br />Mobile: +1 (780) 918-7289</p>
             </div>
             <div className="cardContainer">
                 <img src={Ak} alt="profile" className='profilePic'/>

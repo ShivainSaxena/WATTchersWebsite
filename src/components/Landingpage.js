@@ -4,7 +4,7 @@ import '../App.css';
 import { StyledEngineProvider } from '@mui/material/styles';
 import TextAnim from '../animations/Textwrite';
 import { motion } from 'framer-motion';
-import Placeholder from '../assets/placeholder.png';
+import Grouppic from '../assets/grouppic.png';
 
 
 const LandingPage = () => {
@@ -63,7 +63,7 @@ const LandingPage = () => {
                     </Typography>
 
                   </Box>
-                  <img src={Placeholder} alt="landingImage" className='landingImage' />
+                  <img src={Grouppic} alt="landingImage" className='landingImage' />
                 </Box>
                 <Typography variant='h5' className='missionTextBottom'>
                   As electricity is the key to powering our homes, our solution is to monitor your electricity usage in different parts of your home, and then relay this information back to you. You’ll be able to see which appliances and rooms in your home use the most electricity, which will let you know what electrical source to cut down on. <br /><br />

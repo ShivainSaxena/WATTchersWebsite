@@ -107,7 +107,7 @@ html{
   background-color: #282c34;
   background: linear-gradient(0deg, rgba(40,44,52,1) 0%, rgba(17,0,32,.5) 100%);
   box-shadow: 0 7px 20px 5px #00000088;
-  border-radius: .7rem;
+  border-radius: 2rem;
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
   overflow: hidden;
@@ -142,6 +142,7 @@ html{
 .profilePic{
   width: 300px;
   height: 300px;
+  border-radius: 10rem;
 }
 
 .profileName{
@@ -192,10 +193,11 @@ html{
 }
 
 .landingImage{
-  width: 20vw;
-  height: 20vw;
+  width: 30vw;
+  height: 25vw;
   margin-left: 5%;
   margin-bottom: 10px;
+  border-radius:100px;
 }
 
 .contactPage{
