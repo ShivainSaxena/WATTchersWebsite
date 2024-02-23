@@ -11,8 +11,8 @@
 }
 
 .logo{
-  width: 80px;
-  height: 80px;
+  width: 4vw;
+  height: 4vw;
   padding: 20px;
   border-right: 2px solid lightgrey;
 }
@@ -20,6 +20,7 @@
 .logoName{
   margin-top: 30px;
   margin-left: 20px;
+  font-size: 2.5vw;
 }
 
 body .MuiTypography-root{
@@ -39,6 +40,10 @@ html{
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.navLinks{
+  font-size: 1.7vw;
 }
 
 .App{
@@ -74,7 +79,7 @@ html{
 }
 
 .landingText{
-  margin-top: 10%;
+  margin-top: 18vh;
   margin-bottom: 4%;
 }
 
@@ -82,14 +87,14 @@ html{
   display: inline; 
   color: white;
   font-weight: 300;
-  font-size: 7rem;
+  font-size: 5.7vw;
 }
 
 .secondText{
   display: inline; 
   color: white;
   font-weight: 300;
-  font-size: 6rem;
+  font-size: 4.8vw;
 }
 
 .cardContainer{
@@ -98,7 +103,6 @@ html{
   align-items: center;
   user-select:none;
   width: 388px;
-  margin: 5rem auto;
   border: 1px solid #ffffff22;
   background-color: #282c34;
   background: linear-gradient(0deg, rgba(40,44,52,1) 0%, rgba(17,0,32,.5) 100%);
@@ -154,6 +158,10 @@ html{
 
 .aboutPage{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 70px 15px 20px 15px;
 }
 
 .firstScreen{
@@ -166,20 +174,25 @@ html{
   background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 5%;
+  font-size: 3vw;
 }
 
 .missionText{
-  margin: 5% 0;
-  line-height: 3.4rem;
+  margin: 5% 0 4% 0  ;
 }
 
 .missionTextBottom{
   margin: 0 0 5% 0;
+}
+
+.missionText, .missionTextBottom{
   line-height: 3.4rem;
+  font-size: 1.2vw;
 }
 
 .landingImage{
-  width: 500px;
-  height: 500px;
+  width: 20vw;
+  height: 20vw;
   margin-left: 5%;
+  margin-bottom: 10px;
 }

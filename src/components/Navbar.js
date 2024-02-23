@@ -14,7 +14,7 @@ const Navbar = () => {
                     <Grid item xs={2}  >
                         <Box display={'flex'} marginLeft={'20px'}>
                             <img src={logo} alt="logo" className='logo' />
-                            <Typography variant='h3' className='logoName'>
+                            <Typography className='logoName'>
                                 WATTchers
                             </Typography>
                         </Box>
@@ -26,22 +26,22 @@ const Navbar = () => {
                     <Grid item xs={6} >
                         <Box display='flex' sx={{marginTop: '30px', marginRight: '50px'}} justifyContent={'space-between'} >
                             <Link component={RouterLink} underline='none' to="/">
-                                <Typography variant='h4'className='navLinks'>
+                                <Typography className='navLinks'>
                                     Home
                                 </Typography>
                             </Link>
                             <Link component={RouterLink} underline='none' to="/aboutus">
-                                <Typography variant='h4'className='navLinks'>
+                                <Typography className='navLinks'>
                                     About Us
                                 </Typography>
                             </Link>
                             <Link component={RouterLink} underline='none' to="/projectinfo">
-                                <Typography variant='h4'className='navLinks'>
+                                <Typography className='navLinks'>
                                     Project Info
                                 </Typography>
                             </Link>
                             <Link component={RouterLink} underline='none' to="/contact">
-                                <Typography variant='h4'className='navLinks'>
+                                <Typography className='navLinks'>
                                     Contact
                                 </Typography>
                             </Link>
