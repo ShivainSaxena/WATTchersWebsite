@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Landingpage from './components/Landingpage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './components/About';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Landingpage />} />
           <Route path='/aboutus' element={<About />} />
+          <Route path='/contact' element={<Contact />}/>
         </Routes>
         
 
