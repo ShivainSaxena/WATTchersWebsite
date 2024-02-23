@@ -4,13 +4,13 @@ import '../App.css';
 
 const cursorVariants = {
   blinking: {
-    opacity: [0, 0, 1, 1],
+    opacity: [0, 0, 1, 1, 0],
     transition: {
       duration: 1,
-      repeat: Infinity,
+      repeat: 2,
       repeatDelay: 0,
       ease: "linear",
-      times: [0, 0.5, 0.5, 1]
+      times: [0, 0.5, 0.5, 0.5, 1]
     }
   }
 };

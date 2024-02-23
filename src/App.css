@@ -34,7 +34,7 @@ html{
 
 }
 
-.MuiTypography-h4:hover{
+.navLinks:hover{
   background: linear-gradient(to bottom right, #FDC639, #FF7C60);
   -webkit-background-clip: text;
   background-clip: text;
@@ -44,8 +44,6 @@ html{
 .App{
   position: relative;
 }
-
-
 
 .backdrop{
   position: absolute;
@@ -156,4 +154,32 @@ html{
 
 .aboutPage{
   display: flex;
+}
+
+.firstScreen{
+  height: 71vh;
+}
+
+.mission{
+  background: linear-gradient(to bottom right, #FDC639, #FF7C60);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 5%;
+}
+
+.missionText{
+  margin: 5% 0;
+  line-height: 3.4rem;
+}
+
+.missionTextBottom{
+  margin: 0 0 5% 0;
+  line-height: 3.4rem;
+}
+
+.landingImage{
+  width: 500px;
+  height: 500px;
+  margin-left: 5%;
 }

@@ -20,23 +20,28 @@ const Navbar = () => {
                         </Box>
                         
                     </Grid>
-                    <Grid item xs={5}>
+                    <Grid item xs={4}>
 
                     </Grid>
-                    <Grid item xs={5} >
-                        <Box display='flex' sx={{marginTop: '30px', marginRight: '30px'}} justifyContent={'space-between'} >
+                    <Grid item xs={6} >
+                        <Box display='flex' sx={{marginTop: '30px', marginRight: '50px'}} justifyContent={'space-between'} >
                             <Link component={RouterLink} underline='none' to="/">
-                                <Typography variant='h4'>
+                                <Typography variant='h4'className='navLinks'>
                                     Home
                                 </Typography>
                             </Link>
                             <Link component={RouterLink} underline='none' to="/aboutus">
-                                <Typography variant='h4'>
+                                <Typography variant='h4'className='navLinks'>
                                     About Us
                                 </Typography>
                             </Link>
+                            <Link component={RouterLink} underline='none' to="/projectinfo">
+                                <Typography variant='h4'className='navLinks'>
+                                    Project Info
+                                </Typography>
+                            </Link>
                             <Link component={RouterLink} underline='none' to="/contact">
-                                <Typography variant='h4'>
+                                <Typography variant='h4'className='navLinks'>
                                     Contact
                                 </Typography>
                             </Link>
