@@ -15,7 +15,7 @@ const About = () => {
             <div className="cardContainer">
                 <img src={Ak} alt="profile" className='profilePic'/>
                 <h1 className='profileName'>Aniketh Kini</h1>
-                <p className="profileDesc">Role: <br />- Software Engineer <br />- Embedded Software Testing <br />Linkedln: <a href="http://www.linkedin.com/in/aniketh-kini-605566217" target='_blank' rel='noreferrer'>in/aniketh-kini/</a> <br />Email: <a href="mailto:anikeths@ualberta.ca">anikeths@ualberta.ca</a><br />Mobile: +1 (780) 600-0388</p>
+                <p className="profileDesc">Role: <br />- Fullstack Software Engineer <br />- Embedded Software Testing <br />Linkedln: <a href="http://www.linkedin.com/in/aniketh-kini-605566217" target='_blank' rel='noreferrer'>in/aniketh-kini/</a> <br />Email: <a href="mailto:anikeths@ualberta.ca">anikeths@ualberta.ca</a><br />Mobile: +1 (780) 600-0388</p>
             </div>
             <div className="cardContainer">
                 <img src={AT} alt="profile" className='profilePic'/>
